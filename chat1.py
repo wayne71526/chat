@@ -6,7 +6,7 @@ def read_file(filename):
 			chat.append(line.strip().split(' '))
 	return chat
 
-# 格式轉換			
+# 對話計數分析			
 def count(chat):
 	Allen_word_count = 0
 	Allen_sticker_count = 0
